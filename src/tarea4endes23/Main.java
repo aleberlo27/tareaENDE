@@ -20,8 +20,6 @@ public class Main {
         miCuenta.retirar(200.0);
         saldoRetirado = miCuenta.estado();
         System.out.println("El saldo despues de retirar es: "+ saldoRetirado);
-        
-    
     }
     
     public static void probarIngresar(CCuenta c, int cantidad) throws Exception{
